@@ -5,7 +5,6 @@ import (
 	"fmt"
 
 	firebase "firebase.google.com/go"
-	"firebase.google.com/go/auth"
 
 	"google.golang.org/api/option"
 )
@@ -19,4 +18,5 @@ func auth() (nil, error) {
 }
 
 func main() {
+	fmt.Println("Hello, World")
 }
